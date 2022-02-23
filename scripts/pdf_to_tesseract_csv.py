@@ -66,7 +66,6 @@ def pdf_to_tesseract_csvs():
             print(f"Finished converting {textbook} for pages {start_page} - {end_page}")
 
         save_tesseract_output_to_csv(textbook, pages_texts)
-        break
 
 
 start_time = time.time()
